@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+    </head>
+    <body>
+        <h1>Register</h1>
+        <form>
+            <div class="Name">
+                <label for="First">First Name:</label>
+                <input id="First" type="text" placeholder="John" required>
+                <label for="Last">Last Name:</label>
+                <input id="Last" type="text" placeholder="Smith" required>
+            </div>
+            <div class="Sex">
+                <label for="Male">Male</label>
+                <input name="Sex" type="radio" value="Male">
+                <label for="Female">Female</label>
+                <input name="Sex" type="radio" value="Female">
+                <label for="Other">Other</label>
+                <input name="Sex" type="radio" value="other">
+            </div>
+            <div class="Email">
+                <label for="email">Email:</label>
+                <input id="email" type="email" placeholder="your email">
+                <label for="password">Password:</label>
+                <input id="password" type="password" placeholder="your password" pattern=".{5,10}" required title="5 to 10 characters">
+            </div>
+            <div class="birthday">
+                <label for="birthday">Birthday:</label>
+                    <select name="birthday" id="month">
+                        <option>Month</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                    <select name="birthday" id="day">
+                        <option>Day</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                    <select name="birthday" id="year">
+                        <option>Year</option>
+                        <option>1995</option>
+                        <option>1996</option>
+                        <option>1997</option>
+                    </select>       
+            </div>
+            <div>
+                I agree to the terms and condition above
+                <input type="checkbox">
+            </div>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
