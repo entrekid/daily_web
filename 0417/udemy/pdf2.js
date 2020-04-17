@@ -4,3 +4,12 @@ In JS, double equal sign is more harsh than others
 let x = 5;
 x == "5" : True(only value concerned)
 x === '5' : false(type and value concerend)
+
+# Few Interesting Cases
+null == undefined : True
+NaN == NaN : False 
+
+# Logical Operators
+and : &&
+or : ||
+not : !
