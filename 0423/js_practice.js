@@ -28,4 +28,5 @@ while (num <= 100){
     else {
         console.log(num);
     }
+    num++;
 }
