@@ -3,6 +3,6 @@ var result = {answers: []}
 for (var elem in id_set){
 	if ($('input:checkbox[id='+ elem + ']').is(":checked") == true){
         result.answers.push($('input:checkbox[id='+ elem + ']').val())
-        console.log(result);
+        console.log(result);gi
 	}
 }
